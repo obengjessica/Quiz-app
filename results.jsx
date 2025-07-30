@@ -10,6 +10,7 @@ function Results({questionList, userAnswers, restartQuiz}){
       }
     }
     return finalscore;
+    // The final score can be rewind, but don't think of it as recursive rewind 
   }
   const score = getScores();
   return(
